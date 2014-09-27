@@ -1,25 +1,23 @@
-
+* {
+	box-sizing: border-box;
+}
 
 body
 {
 	background: #FFF;
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
+	margin: 0;
+	width: 100%;
 }
 
 a {
 	font-weight: 400;
-	transition: font-weight 1s ease-out;
+	transition: font-weight 1s ease;
 }
 
-.cover, .container {
+.cover {
 	border-bottom: solid 10px rgb(112,128,154);
-}
-
-.container {
-	border-top: solid 10px rgb(112,128,154);
-	float: left;
-	margin: 5% 20%;
 }
 
 .nav {
@@ -38,49 +36,59 @@ a {
 	margin-top: 5%;
 }
 
-.nav a
-{
-	color: #222;
-	text-decoration: none;
+.active {
+	display: block;
+	font-weight: 700;
 }
 
+#slide-down {
+	display: none;
+	height: 400px;
+	overflow: hidden;
+}
 
 .cover
 {	
 	background-image:url('http://clarepolitano.com/img/bright-field.jpg');
 	background-size: cover;
 	color: #222;
-	height: 500px;
-	margin: -10px 0;
-	text-align: right;
+	height: 600px;
+	margin: 0;
+	position: absolute;
+	top: 90px;
 	width: 100%;
 }
 
-.cover h1 {
-	background-color: rgba(255,255,255,.4);
+#intro h1 {
 	font-size: 2em;
 	font-weight: 400;
 	margin-bottom: 10px;
+	margin-top: 0;
 	padding-bottom: 25px;
 	padding-top: 50px;
+	text-align: right;
 }
 
-.cover p {
-	background-color: rgba(255,255,255,.4);
+#intro p {
 	float:right;
 	font-size: 1.25em;
 	font-weight: 400;
 	margin-top: 10px;
 	padding: 20px;
+	text-align: right;
 	width: 40%;
 }
 
-.headshot {
+#intro h1, #intro p {
+	background-color: rgba(255,255,255,.4);
+}
+
+#headshot {
 	float: right;
 	width: 30%;
 }
 
-.headshot img {
+#headshot img {
 	float: left;
 	padding: 40px 50px 0 25px;
 }
@@ -98,23 +106,31 @@ h2 {
 	margin-bottom: 10px;
 }
 
-.content a
-{
+.content {
+	background-color: rgba(255,255,255,.6);
+	padding: 3% 20%;
+	width: 100%;
+}
+
+.connect {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.content, .connect {
+	color: #222;
+	margin: 0 auto;
+}
+
+.content a, .connect a, .nav a {
 	color: #222;
 	text-decoration: none;
 }
 
-.content p {
-	color: #222;
-}
-
-.content p:first-child {
-	line-height: 1.75em;
-}
-
-
 a:hover {
-	font-weight: 700;
+	/*font-weight: 700;*/
 	text-decoration: none;
 }
 
@@ -127,6 +143,10 @@ a:hover {
 .cover p {font-size: 18px;}
 .content h2 {font-size: 18px;}
 .content p {font-size: 16px;}
+.content {
+	margin: 0 auto;
+	width: 90%;
+}
 .nav li {font-size: 16px;}
 
 }
