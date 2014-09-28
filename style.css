@@ -12,12 +12,8 @@ body
 }
 
 a {
-	font-weight: 400;
+	font-weight: 700;
 	transition: font-weight 1s ease;
-}
-
-.cover {
-	border-bottom: solid 10px rgb(112,128,154);
 }
 
 .nav {
@@ -36,6 +32,10 @@ a {
 	margin-top: 5%;
 }
 
+.nav a {
+	font-weight: 400;
+}
+
 .active {
 	display: block;
 	font-weight: 700;
@@ -43,7 +43,7 @@ a {
 
 #slide-down {
 	display: none;
-	height: 400px;
+	height: 500px;
 	overflow: hidden;
 }
 
@@ -51,6 +51,7 @@ a {
 {	
 	background-image:url('http://clarepolitano.com/img/bright-field.jpg');
 	background-size: cover;
+	border-bottom: solid 10px rgb(112,128,154);
 	color: #222;
 	height: 600px;
 	margin: 0;
@@ -93,9 +94,12 @@ a {
 	padding: 40px 50px 0 25px;
 }
 
-h1, h2, .nav {
+ul {
+	list-style-type: none;
+}
+
+h1, h2, h3, .nav {
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -103,7 +107,11 @@ h1, h2, .nav {
 h2 {
 	font-size: 1.5em;
 	font-weight: 400;
-	margin-bottom: 10px;
+	margin-bottom: -10px;
+}
+
+h3 {
+	display: inline;
 }
 
 .content {
