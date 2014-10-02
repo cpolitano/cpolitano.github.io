@@ -1,16 +1,14 @@
 $(document).ready( function() {
 	
-	$('#nav li').on("click", function() {
+	$('nav a').on("click", function() {
 		event.preventDefault();		
 		if ( $(this).hasClass("active") ) {
 			$("#slide-down").slideUp(1000).removeClass("open");
 			$(this).removeClass("active");
-			$('#headshot').fadeIn(1500);
 			$('#intro').fadeIn(1500);	
 		}
 		else {
-			$('#nav li').removeClass("active"); 
-			$('#headshot').fadeOut(1500);
+			$('nav a').removeClass("active"); 
 			$('#intro').fadeOut(1500);	
 			var thisClass = $(this).attr("class");
 			$(this).toggleClass("active");					

@@ -1,9 +1,13 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
 }
 
-body
-{
+html, body {
+	height: 100%;
+}
+
+body {
 	background: #FFF;
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
@@ -11,29 +15,40 @@ body
 	width: 100%;
 }
 
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -100px;
+}
+
 a {
-	font-weight: 700;
-	transition: font-weight 1s ease;
+	text-decoration: none;
 }
 
-.nav {
-	height: 60px;
-	padding-left: 5%;
-	text-transform: uppercase;
+header {
+	background-color: #222;
+	width: 100%;
 }
 
-.nav ul li
-{
-	display: inline;
-	font-size: 1.25em;
-	line-height: 60px;
-	list-style-type: none;
-	margin-right: 5%;
-	margin-top: 5%;
+nav {
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
 }
 
-.nav a {
+nav a {
+	color: #FFF;
 	font-weight: 400;
+	font-size: 1.5em;
+	height: 90px;
+	line-height: 90px;
+	margin: 0 5%;
+	text-align: center;
+	text-transform: uppercase;
+	transition: color 0.3s ease;
+}
+
+nav a:hover, .connect a:hover {
+	color: #fccf2d;
 }
 
 .active {
@@ -43,15 +58,14 @@ a {
 
 #slide-down {
 	display: none;
-	height: 500px;
+	height: 600px;
 	overflow: hidden;
 }
 
-.cover
-{	
-	background-image:url('http://clarepolitano.com/img/bright-field.jpg');
+.cover {	
+	background: url('http://clarepolitano.com/img/woods-holl.jpg');
 	background-size: cover;
-	border-bottom: solid 10px rgb(112,128,154);
+	border-bottom: solid 10px #fccf2d;
 	color: #222;
 	height: 600px;
 	margin: 0;
@@ -60,37 +74,34 @@ a {
 	width: 100%;
 }
 
+#intro {
+	text-align: left;
+}
+
 #intro h1 {
 	font-size: 2em;
 	font-weight: 400;
+	height: 100px;
 	margin-bottom: 10px;
 	margin-top: 0;
-	padding-bottom: 25px;
-	padding-top: 50px;
-	text-align: right;
+	padding: 50px 0 25px 5%;
 }
 
 #intro p {
-	float:right;
+	float: left;
 	font-size: 1.25em;
 	font-weight: 400;
 	margin-top: 10px;
-	padding: 20px;
-	text-align: right;
-	width: 40%;
+	padding: 20px 20px 20px 5%;
+	width: 50%;
 }
 
 #intro h1, #intro p {
-	background-color: rgba(255,255,255,.4);
+	background-color: rgba(255,255,255,.75);
 }
 
 #headshot {
 	float: right;
-	width: 30%;
-}
-
-#headshot img {
-	float: left;
 	padding: 40px 50px 0 25px;
 }
 
@@ -98,7 +109,7 @@ ul {
 	list-style-type: none;
 }
 
-h1, h2, h3, .nav {
+h1, h2, h3, nav a {
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 }
@@ -115,48 +126,90 @@ h3 {
 }
 
 .content {
-	background-color: rgba(255,255,255,.6);
+	background-color: rgba(255,255,255,.75);
 	padding: 3% 20%;
 	width: 100%;
 }
 
+.push {
+	height: 100px;
+}
+
+.push, .connect {
+	background-color: #222;
+}
+
 .connect {
+	color: #FFF;
 	position: absolute;
 	bottom: 0;
+	line-height: 75px;
 	text-align: center;
+	margin: 0 auto;
 	width: 100%;
 }
 
-.content, .connect {
+.connect a {
+	color: #FFF;
+}
+
+.content {
 	color: #222;
 	margin: 0 auto;
 }
 
-.content a, .connect a, .nav a {
+.content a {
 	color: #222;
-	text-decoration: none;
 }
 
 a:hover {
-	/*font-weight: 700;*/
 	text-decoration: none;
 }
 
 
-@media screen (max-width: 500px) { 
-.container {
-	margin: 0 auto;
-	width: 90%;}
-.cover h1 {font-size: 24px;}
-.cover p {font-size: 18px;}
-.content h2 {font-size: 18px;}
-.content p {font-size: 16px;}
-.content {
-	margin: 0 auto;
-	width: 90%;
-}
-.nav li {font-size: 16px;}
+@media all and (max-width:600px) { 
+	#intro h1, nav a {
+		font-size: 1.75em;
+	}
+
+	nav {
+		height: 300px;
+		line-height: 1.5em;
+		width: 100%;
+	}
+
+	.cover {
+		top: 300px;
+	}
+
+	nav a {
+		display:block;
+		margin: 0 auto;
+	}
+
+	#intro p {
+		width: 100%;
+	}
+
+	#intro p, .content h2, .connect {
+		font-size: 1.5em;
+	}
+
+	.content {
+		padding: 3%;
+	}
+
+	.content p {
+		font-size: 1em;
+	}
+
+	.connect {
+		background: none;
+		line-height: 1.5em;
+		top: 700px;
+	}
 
 }
+
 
 
