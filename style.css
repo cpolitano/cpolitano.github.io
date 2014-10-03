@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	margin: 0;
 }
 
 html, body {
@@ -8,7 +7,7 @@ html, body {
 }
 
 body {
-	background: #FFF;
+	background: #222;
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
 	margin: 0;
@@ -16,61 +15,18 @@ body {
 }
 
 .wrapper {
-	min-height: 100%;
-	margin: 0 auto -100px;
-}
-
-a {
-	text-decoration: none;
-}
-
-header {
-	background-color: #222;
-	width: 100%;
-}
-
-nav {
+	background: url('http://clarepolitano.com/img/woods-holl-portrait.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
 	margin: 0 auto;
-	text-align: center;
-	width: 50%;
-}
-
-nav a {
-	color: #FFF;
-	font-weight: 400;
-	font-size: 1.5em;
-	height: 90px;
-	line-height: 90px;
-	margin: 0 5%;
-	text-align: center;
-	text-transform: uppercase;
-	transition: color 0.3s ease;
-}
-
-nav a:hover, .connect a:hover {
-	color: #fccf2d;
-}
-
-.active {
-	display: block;
-	font-weight: 700;
-}
-
-#slide-down {
-	display: none;
-	height: 600px;
-	overflow: hidden;
 }
 
 .cover {	
-	background: url('http://clarepolitano.com/img/woods-holl.jpg');
-	background-size: cover;
-	border-bottom: solid 10px #fccf2d;
+	background: rgba(0,0,0,0.0);
 	color: #222;
 	height: 600px;
-	margin: 0;
 	position: absolute;
-	top: 90px;
+	top: 100px;
 	width: 100%;
 }
 
@@ -89,7 +45,7 @@ nav a:hover, .connect a:hover {
 
 #intro p {
 	float: left;
-	font-size: 1.25em;
+	font-size: 1.5em;
 	font-weight: 400;
 	margin-top: 10px;
 	padding: 20px 20px 20px 5%;
@@ -97,19 +53,14 @@ nav a:hover, .connect a:hover {
 }
 
 #intro h1, #intro p {
-	background-color: rgba(255,255,255,.75);
-}
-
-#headshot {
-	float: right;
-	padding: 40px 50px 0 25px;
+	background-color: rgba(255,255,255,.8);
 }
 
 ul {
 	list-style-type: none;
 }
 
-h1, h2, h3, nav a {
+h1, h2, h3 {
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 }
@@ -118,48 +69,53 @@ h1, h2, h3, nav a {
 h2 {
 	font-size: 1.5em;
 	font-weight: 400;
-	margin-bottom: -10px;
 }
 
 h3 {
-	display: inline;
+	margin: 0;
 }
 
-.content {
-	background-color: rgba(255,255,255,.75);
-	padding: 3% 20%;
+.about {
+	padding: 25px 25%;
+}
+
+.about, .experience, .connect {
+	background-color: #222;
+	color: #FFF;
+	font-size: 1.5em;
 	width: 100%;
 }
 
-.push {
-	height: 100px;
+.experience {
+	padding: 25px 15%;
 }
 
-.push, .connect {
-	background-color: #222;
+.experience p {
+	text-align: center;
+}
+
+a {
+	color: #E80C7A;
+}
+
+.experience li {
+	margin-bottom: 20px;
+}
+
+.sluice {
+	background: url('http://clarepolitano.com/img/sluice-app.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 600px;
 }
 
 .connect {
+	background-color: #444;
 	color: #FFF;
-	position: absolute;
-	bottom: 0;
-	line-height: 75px;
+	height: 100px;
+	line-height: 100px;
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
-}
-
-.connect a {
-	color: #FFF;
-}
-
-.content {
-	color: #222;
-	margin: 0 auto;
-}
-
-.content a {
-	color: #222;
 }
 
 a:hover {
@@ -172,20 +128,20 @@ a:hover {
 		font-size: 1.75em;
 	}
 
-	nav {
+	.experience, .about {
+		padding: 20px 4%;
+	}
+
+/*	nav {
 		height: 300px;
 		line-height: 1.5em;
 		width: 100%;
 	}
 
-	.cover {
-		top: 300px;
-	}
-
 	nav a {
 		display:block;
 		margin: 0 auto;
-	}
+	}*/
 
 	#intro p {
 		width: 100%;
@@ -193,20 +149,6 @@ a:hover {
 
 	#intro p, .content h2, .connect {
 		font-size: 1.5em;
-	}
-
-	.content {
-		padding: 3%;
-	}
-
-	.content p {
-		font-size: 1em;
-	}
-
-	.connect {
-		background: none;
-		line-height: 1.5em;
-		top: 700px;
 	}
 
 }
