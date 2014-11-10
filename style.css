@@ -45,7 +45,6 @@ body {
 #intro p {
 	font-size: 1.5em;
 	font-weight: 400;
-/*	margin-top: 10px;*/
 	padding: 20px 20px 20px 5%;
 	width: 50%;
 }
@@ -106,6 +105,12 @@ a {
 	height: 600px;
 }
 
+.block-party {
+	background: url('http://clarepolitano.com/img/block-party-app.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 600px;
+}
+
 .connect {
 	background-color: #444;
 	color: #FFF;
@@ -116,7 +121,7 @@ a {
 }
 
 .connect img {
-	margin-right: 3%;
+	margin-right: 1%;
 }
 
 a:hover {
