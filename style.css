@@ -30,34 +30,41 @@ body {
 	width: 100%;
 }
 
-#intro {
-	text-align: left;
-}
-
-#intro h1 {
-	font-size: 3em;
-	font-weight: 400;
+.cover__header {
+	text-shadow: 5px 5px 0px #E80C7A;
+	font-size: 4em;
+	font-weight: 700;
 	height: 100px;
 	line-height: 100px;
-	padding-left: 5%;
+	padding: 8px 20px 10px 5%;
+	text-align: left;
+  width: 45%;
 }
 
-#intro p {
+.cover__text {
 	font-size: 1.5em;
 	font-weight: 400;
 	padding: 20px 20px 20px 5%;
-	width: 50%;
+	text-align: left;
+	width: 60%;
 }
 
-#intro h1, #intro p {
+.cover__header, .cover__text {
 	background-color: rgba(255,255,255,.8);
+}
+
+.cover__icon {
+	font-size: 6em;
+	height: 200px;
+	margin-top: 10%;
+	text-align: center;
 }
 
 ul {
 	list-style-type: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .cover__header {
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 }
@@ -73,7 +80,7 @@ h3 {
 }
 
 .about {
-	padding: 25px 25%;
+	padding: 35px 25%;
 }
 
 .about, .experience, .connect {
@@ -134,19 +141,20 @@ a:hover {
 		background-position: 100%;
 	}
 
-	#intro h1 {
+	.cover__header {
 		font-size: 2.5em;
+		width: 100%;
+	}
+
+	.cover__text {
+		width: 100%;
 	}
 
 	.experience, .about {
 		padding: 20px 4%;
 	}
 
-	#intro p {
-		width: 100%;
-	}
-
-	#intro p, .content h2, .connect {
+	.cover__text, .content h2, .connect {
 		font-size: 1.5em;
 	}
 

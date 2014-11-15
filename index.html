@@ -14,16 +14,17 @@
 <body>
 
   <div class="wrapper">
-	<div class="cover">
-	  <div id="intro">
-		<h1>Hi, I'm Clare</h1>
-		<p>I'm a full stack web developer based in Washington, DC.</p>
-	  </div>
-	</div>
+  	<div class="cover">
+  		<p class="cover__header">Hi, I'm Clare</p>
+  		<p class="cover__text">I'm a web developer based in Washington, DC.</p>
+      <div class="cover__icon">
+        <a href="" id="icon">&#9098;</a>
+      </div>
+  	</div>
   </div>
 
   <div class="about">
-	  <p>At the moment, I'm honored to be Developer Apprentice at innovative digital agency <a href="http://istrategylabs.com/">iStrategyLabs</a>. I recently completed the rigorous Web Development Immersive at <a href="https://generalassemb.ly/">General Assembly</a>, where over the course of 12 weeks I learned Ruby on Rails, Git, PostgreSQL, and JavaScript, and improved my skills in HTML/CSS. When my apprenticeship at iSL concludes in February 2015, I will seek a full-time developer position with a digital agency that shares my dedication to positive social impact.</p>
+    <p>At the moment, I'm honored to be Developer Apprentice at innovative digital agency <a href="http://istrategylabs.com/">iStrategyLabs</a>. I recently completed the rigorous Web Development Immersive at <a href="https://generalassemb.ly/">General Assembly</a>, where over the course of 12 weeks I learned Ruby on Rails, Git, PostgreSQL, and JavaScript, and improved my skills in HTML/CSS. When my apprenticeship at iSL concludes in February 2015, I will seek a full-time developer position with a digital agency that shares my dedication to positive social impact.</p>
     <p>Check out my first web application, <a href="http://sluice-wdi.herokuapp.com/">Sluice</a>. It uses the Twitter API to help researchers and journalists monitor search queries and save important tweets.</p>
   </div>
 
@@ -31,7 +32,7 @@
 
   <div class="about">
     <p>My final project at GA is <a href="http://block-party-wdi.herokuapp.com/">Block Party</a>, an app to mitigate online harassment by automatically blocking abusive users on Twitter.</p>
-    <p>I also participated in a fun group project, <a href="http://www.runforyour.life">RunForYour.Life</a>, which predicts your chances of surviving the zombie apocalypse. My significant contributions include managing the canonical GitHub repository with 6 contributors, writing CSS, and implementing an SVG animation.</p>
+    <p>I also participated in a fun group project, <a href="http://www.runforyour.life">RunForYour.Life</a>. My contributions include managing the canonical GitHub repository with 6 contributors, responsive CSS, SVG animation, and writing the JavaScript algorithm that predicts chances of surviving the zombie apocalypse.</p>
   </div>
 
   <div class="block-party"></div>
@@ -62,5 +63,9 @@
   </div>
   
 </body>
+<script type="text/javascript">
+  var icon = document.getElementById('icon');
+  icon.addEventListener('click', window.scroll(0,650));
+</script>
 
 </html>
