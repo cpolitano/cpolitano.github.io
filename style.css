@@ -21,6 +21,10 @@ body {
 	margin: 0 auto;
 }
 
+.wrapper a {
+	text-decoration: none;
+}
+
 .cover {	
 	background: rgba(0,0,0,0.0);
 	color: #222;
@@ -30,8 +34,19 @@ body {
 	width: 100%;
 }
 
+.cover__social {
+	position: relative;
+	float: right;
+}
+
+.cover__link {
+	display: inline-block;
+	font-size: 2.5em;
+	margin: 0.5em 1em 0 0;
+}
+
 .cover__header {
-	animation: dropin .5s ease .25s;
+	animation: dropin 1s ease .25s;
 	font-size: 4em;
 	font-weight: 700;
 	height: 100px;
@@ -43,7 +58,7 @@ body {
 }
 
 .cover__text {
-	animation: dropin .5s ease .5s;
+	animation: dropin 1s ease .5s;
 	font-size: 1.5em;
 	font-weight: 400;
 	padding: 20px 20px 20px 5%;
@@ -92,7 +107,7 @@ h3 {
 }
 
 .about {
-	padding: 35px 25%;
+	padding: 75px 25%;
 }
 
 .about, .experience, .connect {
@@ -121,27 +136,27 @@ a {
 .sluice {
 	background: url('http://clarepolitano.com/img/sluice-app.jpg') no-repeat center center fixed;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 .block-party {
 	background: url('http://clarepolitano.com/img/block-party-app.jpg') no-repeat center center fixed;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
-.connect {
-	background-color: #444;
-	color: #FFF;
+.footer {
+	background-color: #000;
+	color: #777;
+	font-size: 1em;
 	line-height: 100px;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
-	padding-top: 5px;
 	width: 100%;
 }
 
-.connect img {
-	margin-right: 1%;
+.footer__text {
+	padding-left: 2em;
 }
 
 a:hover {
@@ -183,11 +198,11 @@ a:hover {
 		padding: 20px 4%;
 	}
 
-	.cover__text, .content h2, .connect {
+	.cover__text, .content h2, .footer {
 		font-size: 1.5em;
 	}
 
-	.connect {
+	.footer {
 		line-height: 1.5em;
 		padding: 5%;
 	}
