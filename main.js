@@ -1,4 +1,4 @@
-var icon = document.getElementById('icon');
+var icon = document.getElementById('js-icon');
 var anchor = document.getElementById('about--anchor');
 
 icon.addEventListener('click', function(event){

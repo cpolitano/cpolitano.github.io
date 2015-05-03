@@ -117,7 +117,7 @@ h3 {
 .about, .experience {
 	background-color: #222;
 	color: #FFF;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	width: 100%;
 }
 
@@ -137,16 +137,37 @@ a, .cover__icon {
 	margin-bottom: 20px;
 }
 
-.sluice {
-	background: url('http://clarepolitano.com/img/sluice-app.jpg') no-repeat center center fixed;
-	background-size: cover;
-	height: 500px;
+.sluice, .block-party {
+		color: #FFF;
+		margin: 2em auto 3em;
 }
 
-.block-party {
-	background: url('http://clarepolitano.com/img/block-party-app.jpg') no-repeat center center fixed;
-	background-size: cover;
-	height: 500px;
+.sluice__image {
+		background: url('http://clarepolitano.com/img/sluice-app.jpg') no-repeat 0 center fixed;
+		background-size: 500px 350px;
+		display: inline-block;
+		height: 300px;
+		margin-left: 1em;
+		vertical-align: top;
+		width: 45%;
+}
+
+.sluice__content, .block-party__content {
+		display: inline-block;
+		font-size: 1.25em;
+		margin-left: 1em;
+		vertical-align: top;
+		width: 40%;
+}
+
+.block-party__image {
+		background: url('http://clarepolitano.com/img/block-party-app.jpg') no-repeat 550px center fixed;
+		background-size: 500px 350px;
+		display: inline-block;
+		height: 300px;
+		margin-left: 1em;
+		vertical-align: top;
+		width: 45%;
 }
 
 .footer {
