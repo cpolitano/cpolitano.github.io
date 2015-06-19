@@ -14,6 +14,10 @@ body {
 	width: 100%;
 }
 
+ul {
+	list-style-type: none;
+}
+
 .wrapper {
 	background: url('http://clarepolitano.com/img/woods-holl-portrait.jpg') no-repeat center center fixed;
 	background-size: cover;
@@ -43,6 +47,11 @@ body {
 	display: inline-block;
 	font-size: 2.5em;
 	margin: 0.5em 1em 0 0;
+	transition: all 0.25s ease;
+}
+
+.cover__link:hover {
+		transform: translateY(8px);
 }
 
 .cover__header {
@@ -82,6 +91,10 @@ body {
 #js-icon, .cover__link {
 	cursor: pointer;
 	text-shadow: 0px 5px 2px #000;
+}
+
+#js-icon:hover {
+		transform: translateY(8px);
 }
 
 .cover__icon {
