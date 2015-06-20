@@ -47,7 +47,6 @@ ul {
 	display: inline-block;
 	font-size: 2.5em;
 	margin: 0.5em 1em 0 0;
-	transition: all 0.25s ease;
 }
 
 .cover__link:hover {
@@ -55,7 +54,6 @@ ul {
 }
 
 .cover__header {
-	animation: dropin 1s ease .5s;
 	font-size: 4em;
 	font-weight: 700;
 	height: 100px;
@@ -67,12 +65,38 @@ ul {
 }
 
 .cover__text {
-	animation: dropin 1s ease 1s;
+	-webkit-animation: dropin 1s ease 1s;
+	-moz-animation:    dropin 1s ease 1s;
+  -o-animation:      dropin 1s ease 1s;
+	animation: 				 dropin 1s ease 1s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	opacity: 0;
 	font-size: 1.5em;
 	font-weight: 400;
 	padding: 20px 20px 20px 5%;
 	text-align: left;
 	width: 60%;
+}
+
+@-webkit-keyframes dropin {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes dropin {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes dropin {
@@ -91,6 +115,7 @@ ul {
 #js-icon, .cover__link {
 	cursor: pointer;
 	text-shadow: 0px 5px 2px #000;
+	transition: all 0.25s ease;
 }
 
 #js-icon:hover {
@@ -108,7 +133,7 @@ ul {
 	list-style-type: none;
 }
 
-h1, h2, h3, .cover__header {
+h1, h2, h3, .cover__header, .footer__text {
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 }
@@ -217,12 +242,18 @@ a:hover {
 
 @media all and (max-width:600px) { 
 	.wrapper {
-		background-position: -400px 0;
+		background-position: 100% center;
 	}
 
 	.cover {
 		background-position: 100%;
-		top: 0;
+		top: 50px;
+	}
+
+	.cover__social {
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
 	}
 
 	.cover__header {
@@ -231,20 +262,36 @@ a:hover {
 	}
 
 	.cover__text {
+		-webkit-animation: none;
+		-moz-animation: none;
+		-o-animation: none;
+		animation: none;
+		font-size: 1.25em;
+		opacity: 0;
 		width: 100%;
 	}
 
-	.experience, .about {
+	.sluice__content, .block-party__content, .sluice__image, .block-party__image {
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.about {
 		padding: 20px 4%;
 	}
 
-	.cover__text, .content h2, .footer {
+	.experience {
+		display: none;
+	}
+
+	.content h2, .footer {
 		font-size: 1.5em;
 	}
 
 	.footer {
 		line-height: 1.5em;
-		padding: 5%;
+		padding: 5% 0;
 	}
 
 }
