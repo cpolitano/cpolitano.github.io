@@ -5,8 +5,11 @@ I'm a Creative Technologist at digital agency [ISL](http://istrategylabs.com/), 
 
 ### Some things I've built at ISL ###
 [milagrotequila.com](http://milagrotequila.com)
+
 [freemybeer.com](https://freemybeer.com)
-[freemybeer.com](http://hendricksair.com/)
+
+[hendricks.com](http://hendricksair.com/)
+
 
 When I started at ISL as a Developer Apprentice, I built a series of apps to improve my skills and learn about ISL's stacks. I started off with an Angular-based quiz game about the company, including a leaderboard, new question submission, and data persisted to Parse. Next I built an Angular app for social media monitoring of brand posts on Facebook, Twitter, and Instagram. Finally, I built a Node Webkit app with a Google Maps visualization to search for Instagram influencers based on location, hashtag, or account followed.
 
