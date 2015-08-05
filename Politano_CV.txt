@@ -13,31 +13,48 @@ Experience
 ==========
 
     ISL (iStrategyLabs), Feb. 2015 - Present, Creative Technologist
-    * Full stack development of client projects including brand websites for Hendricks's Gin, Milagro Tequila, and Free My Beer campaign.
-    * Technologies used include NodeJS, AngularJS, MongoDB, web sockets, Gulp, bower, npm, and BEM-style Sass.
+    * Full stack development of client projects including brand websites for
+    Hendricks's Gin, Milagro Tequila, and Free My Beer campaign.
+    * Technologies used include NodeJS, AngularJS, MongoDB, web sockets,
+    Gulp, bower, npm, and BEM-style Sass.
     * Learning focus on Python/Django, GoLang, WebGL, and Swift
 
     ISL (iStrategyLabs), Nov. 2014 - Jan. 2015, Developer Apprentice
-    * Built internal apps for ISL using AngularJS, Node Webkit, Parse, Google Maps, and integration with Facebook, Twitter, and Instagram APIs
+    * Built internal apps for ISL using AngularJS, Node Webkit, Parse,
+    Google Maps, and integration with Facebook, Twitter, and Instagram APIs
 
-    Center for Science in the Public Interest, Apr. 2012 - Jul. 2014, Communications Coordinator, Community Manager
-    * Front-end development of organization website, conducted traditional media relations, led digital strategy, and carried out social media community management.
+    Center for Science in the Public Interest, Apr. 2012 - Jul. 2014,
+    Communications Coordinator, Community Manager
+    * Front-end development and maintainence of organization website
+    in HTML and CSS.
+    * Conducted traditional media relations, led digital strategy, and
+    carried out social media community management.
 
-    Rivanna Natural Designs, Creative Services Coordinator, Nov. 2010 - Sept. 2011
-    * Graphic design and business development at green manufacturer that produces eco-friendly plaques and corporate awards.
+    Rivanna Natural Designs, Creative Services Coordinator, Nov. 2010 -
+    Sept. 2011
+    * Graphic design and business development at green manufacturer
+    that produces eco-friendly plaques and corporate awards.
 
     International Rescue Committee, May 2009 - Aug. 2010, Resource Developer
-    * Media relations, fundraising, and web content management for refugee resettlement agency (Americorps VISTA)
+    * Media relations, fundraising, and web content management for refugee
+     resettlement agency (Americorps VISTA)
 
 
 Education
 =========
 
     General Assembly Web Development Immersive, October 2014
-    * Full-time 12 week course on Ruby, Rails, Git, SQL/Postgres and JavaScript.
+    * Full-time 12 week course on Ruby, Rails, Git, SQL/Postgres
+    and JavaScript.
 
     K. Pattabhi Jois Ashtanga Yoga Institute, Mysore, India, 2012
+    * Studied yoga for 6 weeks with world lineage holder of Ashtanga
+    yoga tradition, Sharath Jois
 
-    University of Virginia, B.A. Political Science, Architecture Minor, 2009
+    University of Virginia, B.A. Political Science, 2009
+    * Studied international politics, Arabic, Italian, and minored in
+    Architecture
 
     University of Jordan, Amman, Jordan - Arabic Study Abroad, 2008
+    * Studied Arabic, conducted academic research on Iraqi refugee migration,
+    and worked at Czech humanitarian aid group Clovek v Tisni
