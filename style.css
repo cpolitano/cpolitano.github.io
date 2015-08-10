@@ -1,52 +1,52 @@
 * {
-	box-sizing: border-box;
+		box-sizing: border-box;
 }
 
 html, body {
-	height: 100%;
+		height: 100%;
 }
 
 body {
-	background: #222;
-	font-family: 'Merriweather', serif;
-	font-size: 1em;
-	margin: 0;
-	width: 100%;
+		background: #222;
+		font-family: 'Merriweather', serif;
+		font-size: 1em;
+		margin: 0;
+		width: 100%;
 }
 
 ul {
-	list-style-type: none;
+		list-style-type: none;
 }
 
 .wrapper {
-	background: url('http://clarepolitano.com/img/woods-holl-portrait.jpg') no-repeat center center fixed;
-	background-size: cover;
-	height: 100%;
-	margin: 0 auto;
+		background: url('http://clarepolitano.com/img/woods-holl-portrait.jpg') no-repeat center center fixed;
+		background-size: cover;
+		height: 100%;
+		margin: 0 auto;
 }
 
 .wrapper a {
-	text-decoration: none;
+		text-decoration: none;
 }
 
-.cover {	
-	background: rgba(0,0,0,0.0);
-	color: #222;
-	height: 600px;
-	position: absolute;
-	top: 100px;
-	width: 100%;
+.cover {
+		background: rgba(0,0,0,0.0);
+		color: #222;
+		height: 600px;
+		position: absolute;
+		top: 100px;
+		width: 100%;
 }
 
 .cover__social {
-	position: relative;
-	float: right;
+		position: relative;
+		float: right;
 }
 
 .cover__link {
-	display: inline-block;
-	font-size: 2.5em;
-	margin: 0.5em 1em 0 0;
+		display: inline-block;
+		font-size: 2.5em;
+		margin: 0.5em 1em 0 0;
 }
 
 .cover__link:hover {
@@ -54,68 +54,68 @@ ul {
 }
 
 .cover__header {
-	font-size: 4em;
-	font-weight: 700;
-	height: 100px;
-	line-height: 100px;
-	padding: 8px 20px 10px 5%;
-	text-align: left;
-	text-shadow: 5px 5px 0px #E80C7A;
-  width: 45%;
+		font-size: 4em;
+		font-weight: 700;
+		height: 100px;
+		line-height: 100px;
+		padding: 8px 20px 10px 5%;
+		text-align: left;
+		text-shadow: 5px 5px 0px #E80C7A;
+	  width: 45%;
 }
 
 .cover__text {
-	-webkit-animation: dropin 1s ease 1s;
-	-moz-animation:    dropin 1s ease 1s;
-  -o-animation:      dropin 1s ease 1s;
-	animation: 				 dropin 1s ease 1s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-o-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	opacity: 0;
-	font-size: 1.5em;
-	font-weight: 400;
-	padding: 20px 20px 20px 5%;
-	text-align: left;
-	width: 60%;
+		-webkit-animation: dropin 1s ease 1s;
+		-moz-animation:    dropin 1s ease 1s;
+	  -o-animation:      dropin 1s ease 1s;
+		animation: 				 dropin 1s ease 1s;
+		-webkit-animation-fill-mode: forwards;
+		-moz-animation-fill-mode: forwards;
+		-o-animation-fill-mode: forwards;
+		animation-fill-mode: forwards;
+		opacity: 0;
+		font-size: 1.5em;
+		font-weight: 400;
+		padding: 20px 20px 20px 5%;
+		text-align: left;
+		width: 60%;
 }
 
 @-webkit-keyframes dropin {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+		0% {
+				opacity: 0;
+		}
+		100% {
+				opacity: 1;
+		}
 }
 
 @-moz-keyframes dropin {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+		0% {
+				opacity: 0;
+		}
+		100% {
+				opacity: 1;
+		}
 }
 
 @keyframes dropin {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+		0% {
+				opacity: 0;
+		}
+		100% {
+				opacity: 1;
+		}
 }
 
 .cover__header, .cover__text {
-	background-color: rgba(255,255,255,.8);
+		background-color: rgba(255,255,255,.8);
 }
 
 #js-icon, .cover__link {
-	cursor: pointer;
-	text-shadow: 0px 5px 2px #000;
-	transition: all 0.25s ease;
+		cursor: pointer;
+		text-shadow: 0px 5px 2px #000;
+		transition: all 0.25s ease;
 }
 
 #js-icon:hover {
@@ -123,71 +123,74 @@ ul {
 }
 
 .cover__icon {
-	font-size: 6em;
-	height: 200px;
-	margin-top: 10%;
-	text-align: center;
+		font-size: 6em;
+		height: 200px;
+		margin-top: 10%;
+		text-align: center;
 }
 
 .cover__social, .cover__icon, .experience__list {
-	list-style-type: none;
+		list-style-type: none;
 }
 
 h1, h2, h3, .cover__header, .footer__text {
-	font-family: 'Josefin Sans', sans-serif;
-	text-transform: uppercase;
+		font-family: 'Josefin Sans', sans-serif;
+		text-transform: uppercase;
 }
 
 
 h2 {
-	font-size: 1.5em;
-	font-weight: 400;
+		font-size: 1.5em;
+		font-weight: 400;
 }
 
 h3 {
-	margin: 0;
+		margin: 0;
 }
 
 .about {
-	padding: 75px 25%;
+		padding: 75px 25%;
 }
 
 .about, .experience {
-	background-color: #222;
-	color: #FFF;
-	font-size: 1.25em;
-	width: 100%;
+		background-color: #222;
+		color: #FFF;
+		font-size: 1.25em;
+		width: 100%;
 }
 
 .experience {
-	padding: 25px 15%;
+		padding: 25px 15%;
 }
 
 .experience p {
-	text-align: center;
+		text-align: center;
 }
 
 a, .cover__icon {
-	color: #E80C7A;
+		color: #E80C7A;
 }
 
 .experience li {
-	margin-bottom: 20px;
+		margin-bottom: 20px;
 }
 
 .sluice, .block-party {
 		color: #FFF;
 		margin: 2em auto 3em;
-		text-align: center;
 		width: 100%;
+}
+
+.circle--clip {
+		-webkit-clip-path: circle(35% at 50% 50%);
+		clip-path: circle(35% at 50% 50%);
 }
 
 .sluice__image {
 		background: url('http://clarepolitano.com/img/sluice-app.jpg') no-repeat center center;
 		background-size: cover;
 		display: inline-block;
-		height: 300px;
-		margin-left: 1em;
+		height: 400px;
 		vertical-align: top;
 		width: 45%;
 }
@@ -195,104 +198,102 @@ a, .cover__icon {
 .sluice__content, .block-party__content {
 		display: inline-block;
 		font-size: 1.25em;
-		margin-left: 1em;
 		vertical-align: top;
 		width: 40%;
 }
 
 .block-party__image {
-		background: url('http://clarepolitano.com/img/block-party-app.jpg') no-repeat center center;
+		background: url('http://clarepolitano.com/img/block-party-app.jpg') no-repeat 0 center;
 		background-size: cover;
 		display: inline-block;
-		height: 300px;
-		margin-left: 1em;
+		height: 400px;
 		vertical-align: top;
 		width: 45%;
 }
 
 .footer {
-	background-color: #000;
-	color: #777;
-	font-size: 1em;
-	line-height: 100px;
-	text-align: left;
-	margin: 0 auto;
-	width: 100%;
+		background-color: #000;
+		color: #777;
+		font-size: 1em;
+		line-height: 100px;
+		text-align: left;
+		margin: 0 auto;
+		width: 100%;
 }
 
 .footer__text {
-	padding-left: 2em;
+		padding-left: 2em;
 }
 
 a:hover {
-	text-decoration: none;
+		text-decoration: none;
 }
 
-@media all and (max-width:1100px) { 
-	.cover__header {
-		width: 60%;
-	}
+@media all and (max-width:1100px) {
+		.cover__header {
+				width: 60%;
+		}
 }
 
-@media all and (max-width:900px) { 
-	.cover__header {
-		width: 80%;
-	}
+@media all and (max-width:900px) {
+		.cover__header {
+				width: 80%;
+		}
 }
 
-@media all and (max-width:600px) { 
-	.wrapper {
-		background-position: 100% center;
-	}
+@media all and (max-width:600px) {
+		.wrapper {
+				background-position: 100% center;
+		}
 
-	.cover {
-		background-position: 100%;
-		top: 50px;
-	}
+		.cover {
+				background-position: 100%;
+				top: 50px;
+		}
 
-	.cover__social {
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-	}
+		.cover__social {
+				margin: 0 auto;
+				text-align: center;
+				width: 100%;
+		}
 
-	.cover__header {
-		font-size: 2.75em;
-		width: 100%;
-	}
+		.cover__header {
+				font-size: 2.75em;
+				width: 100%;
+		}
 
-	.cover__text {
-		-webkit-animation: none;
-		-moz-animation: none;
-		-o-animation: none;
-		animation: none;
-		font-size: 1.25em;
-		opacity: 0;
-		width: 100%;
-	}
+		.cover__text {
+				-webkit-animation: none;
+				-moz-animation: none;
+				-o-animation: none;
+				animation: none;
+				font-size: 1.25em;
+				opacity: 0;
+				width: 100%;
+		}
 
-	.sluice__content, .block-party__content, .sluice__image, .block-party__image {
-		display: block;
-		margin: 0 auto;
-		width: 90%;
-	}
+		.sluice__content, .block-party__content, .sluice__image, .block-party__image {
+				display: block;
+				margin: 0 auto;
+				width: 90%;
+		}
 
-	.about {
-		padding: 20px 4%;
-	}
+		.about {
+				padding: 20px 4%;
+		}
 
-	.experience {
-		display: none;
-	}
+		.experience {
+				display: none;
+		}
 
-	.content h2, .footer {
-		font-size: 1.5em;
-	}
+		.content h2, .footer {
+				font-size: 1.5em;
+		}
 
-	.footer {
-		line-height: 1.5em;
-		padding: 5% 0;
-	}
+		.footer {
+				line-height: 1.5em;
+				padding: 5% 0;
+		}
 
 }
 
