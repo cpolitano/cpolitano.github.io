@@ -178,6 +178,7 @@ a, .cover__icon {
 .sluice, .block-party {
 		color: #FFF;
 		margin: 2em auto 3em;
+		padding: 0 1em;
 		width: 100%;
 }
 
@@ -198,6 +199,7 @@ a, .cover__icon {
 .sluice__content, .block-party__content {
 		display: inline-block;
 		font-size: 1.25em;
+		padding: 1em;
 		vertical-align: top;
 		width: 40%;
 }
