@@ -1,10 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import colibri from '../images/colibri.svg'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <div className="logo-icon">
+              <img src={colibri} width="50px" />
+            </div>
         </div>
         <div className="content">
             <div className="inner">
