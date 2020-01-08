@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/starfruit.jpg'
+import pic02 from '../images/blueberries.jpg'
+import pic03 from '../images/foraged-mushrooms.jpg'
 
 class Main extends React.Component {
   render() {
@@ -33,24 +33,25 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            In 2017, I left a corporate engineering job in Washington, DC and set out to reconnect
+            with the Earth and learn how I could apply my technical skills to solving our most
+            pressing planetary challenges. My journey took me to Northern California, Mexico, Costa Rica,
+            and sailing up the coast of Central America all the way to Hawaii.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Along the way, I fell in love with permaculture, regenerative agriculture,
+            and traditional ecological knowledge, traditions with profound leverage to
+            restore balance to our biosphere. Over the last few years, I've had the pleasure
+            of helping land projects in Costa Rica and California by sharing my
+            skills in communications, software engineering, and getting my hands in the soil.
+            I've learned from incredible teachers about the wisdom of plants, the paramount
+            importance of soil, the Earth's capacity to regenerate herself, and our responsibility to help.
+          </p>
+          <p>
+            I'm now making a home in San Francisco and stewarding <a href="https://www.terran.io/" target="_blank">Terran Collective</a>, a
+             community of care and practice building systems and tools for a regenerative future.
+             I accept contracts in software engineering, communications, and corporate strategy.
+             Please reach out to collaborate with me. We're in this together.
           </p>
           {close}
         </article>
@@ -67,19 +68,11 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            <ul>
+              <li>Software Engineering</li>
+              <li>Regenerative Business Strategy</li>
+              <li>Permaculture Design</li>
+            </ul>
           </p>
           {close}
         </article>
@@ -96,13 +89,7 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Clare is an eco-social entrepreneur and movement artist whose mission is channeling resources to healing. She has worked in architecture, refugee resettlement, yoga, nutrition, and regenerative agriculture contributing her skills in design, communications, and software engineering. She is creating a future where humans remember our destiny as responsible stewards of the Earth, living in reciprocal partnership with the land and the more-than-human community.
           </p>
           {close}
         </article>
@@ -115,50 +102,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <p>
+            To get in touch, please drop me a line at clare [at] terran [dot] io.
+          </p>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/claritymangolapa/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/cpolitano"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
